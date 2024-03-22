@@ -6,7 +6,10 @@
 #include <stdio.h>
 
 int main() {
-    // 이곳에 코드를 작성해주세요!
+    int N;
+	scanf_s("%d", &N);
+	if (N < 12) printf("AM");
+	else printf("PM");
 
     return 0;
 }

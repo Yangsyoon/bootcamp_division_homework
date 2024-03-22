@@ -6,7 +6,18 @@
 #include <stdio.h>
 
 int main() {
-    // 이곳에 코드를 작성해주세요!
+    int N;
+	scanf_s("%d", &N);
+	int total = 0;
+	while (N <= 0)
+	{
+		printf("X\n");
+		
+		scanf_s("%d", &N);
+	}
+	for (int i = 1; i <= N; i++)
+		total += i;
+	printf("%d",total);
 
     return 0;
 }
