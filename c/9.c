@@ -7,13 +7,13 @@
 
 int main() {
     int N;
-	scanf_s("%d", &N);
+	scanf("%d", &N);
 	int total = 0;
 	while (N <= 0)
 	{
 		printf("X\n");
 		
-		scanf_s("%d", &N);
+		scanf("%d", &N);
 	}
 	for (int i = 1; i <= N; i++)
 		total += i;

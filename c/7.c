@@ -7,7 +7,7 @@
 
 int main() {
     int year, month;
-	scanf_s("%d %d", &year, &month);
+	scanf("%d %d", &year, &month);
 	if (month == 4 || month == 6 || month == 9 || month == 11)
 		printf("30");
 	else if (month == 2)

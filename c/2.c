@@ -8,7 +8,7 @@
 int main() {
     //
     int N;
-    scanf_s("%d",&N);
+    scanf("%d",&N);
 	if (N >= 61) printf("DISCOUNT\n");
 
 	printf("BOARD");

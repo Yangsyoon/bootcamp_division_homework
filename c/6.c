@@ -7,7 +7,7 @@
 
 int main() {
     char alpha;
-	scanf_s("%c",&alpha);
+	scanf("%c",&alpha);
 	if (alpha == 'a' || alpha == 'e' || alpha == 'i' || alpha == 'o' || alpha == 'u')
 		printf("O");
 	else printf("X");

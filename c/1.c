@@ -7,7 +7,7 @@
 
 int main() {
     int N;
-	scanf_s("%d", &N);
+	scanf("%d", &N);
 	int a, b, c;
 	a = N / 100;
 	N %= 100;

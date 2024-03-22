@@ -7,7 +7,7 @@
 
 int main() {
     int N;
-	scanf_s("%d", &N);
+	scanf("%d", &N);
 	if (N < 12) printf("AM");
 	else printf("PM");
 

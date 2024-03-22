@@ -7,7 +7,7 @@
 
 int main() {
     int N;
-	scanf_s("%d", &N);
+	scanf("%d", &N);
 
 	if (N <= 100 && N >= 90) printf("A");
 	else if (N < 90 && N >= 80) printf("B");
