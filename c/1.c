@@ -6,6 +6,7 @@
 #include <stdio.h>
 
 int main() {
+    //
     int N;
 	scanf_s("%d", &N);
 	int a, b, c;
