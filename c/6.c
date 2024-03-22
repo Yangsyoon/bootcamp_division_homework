@@ -6,8 +6,8 @@
 #include <stdio.h>
 
 int main() {
-    int alpha;
-	scanf_s("%d",&alpha);
+    char alpha;
+	scanf_s("%c",&alpha);
 	if (alpha == 'a' || alpha == 'e' || alpha == 'i' || alpha == 'o' || alpha == 'u')
 		printf("O");
 	else printf("X");
